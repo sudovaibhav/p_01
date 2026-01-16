@@ -6,7 +6,7 @@ else:
     script_name = sys.argv[0]
     celsius = 30
 print("Invalid inpur using default values.")
-f = (celsius * 1.8) + 32
+f = (float(celsius) * 1.8) + 32
 
 print("Celsius : ", celsius)
 print("Fahrenheit : ", f)
